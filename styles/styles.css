@@ -1,0 +1,33 @@
+body > nav{
+    height: 15%;
+}
+.navbar{
+    background-color: red1;
+}
+body{
+    background: url("../media/images/1.jpg") no-repeat no-repeat;
+    position: relative;
+    background-size: cover; 
+}
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .flex-item {
+    background: tomato;
+    color: white;   
+    height: 100%;
+    width: 8.33%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100%;
+  }
